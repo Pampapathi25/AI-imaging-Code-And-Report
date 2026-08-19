@@ -1,0 +1,8 @@
+{
+  "image_id": "test_006",
+  "n_objects": 8,
+  "mean_area": 198.88,
+  "density_class": "sparse",
+  "quality_flag": "uncertain",
+  "narrative": "The segmentation indicates 8 objects with an average area of approximately 200 square units, suggesting a sparse distribution where the majority of the image space is unoccupied by these objects."
+}

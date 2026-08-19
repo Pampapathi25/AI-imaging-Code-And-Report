@@ -1,0 +1,8 @@
+{
+  "image_id": "test_009",
+  "n_objects": 21,
+  "mean_area": 179.14,
+  "density_class": "normal",
+  "quality_flag": "uncertain",
+  "narrative": "The segmentation of test_009 indicates 21 objects with an average area of 179.14 pixels, suggesting a relatively even distribution across the image. However, due to insufficient data on object density and quality, it is uncertain whether these objects exhibit typical or atypical characteristics."
+}

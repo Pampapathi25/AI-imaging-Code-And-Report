@@ -1,0 +1,8 @@
+{
+  "image_id": "test_000",
+  "n_objects": 8,
+  "mean_area": 191.88,
+  "density_class": "sparse",
+  "quality_flag": "uncertain",
+  "narrative": "The segmentation indicates an image with 8 objects, each having a mean area of approximately 192 square units. The objects exhibit a low density class of sparse and have a solid mean solidity of about 0.9673, suggesting mostly regular shapes."
+}

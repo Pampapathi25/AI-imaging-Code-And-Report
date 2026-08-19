@@ -1,0 +1,42 @@
+{
+  "image_id": "val_000",
+  "vision_model": "qwen2.5vl:3b",
+  "naive_prompt": "Describe this biomedical image.",
+  "optimised_prompt": "You are assisting with an EDUCATIONAL biomedical image-analysis exercise.\nDescribe only visible image characteristics. Do NOT diagnose disease, infer a patient condition,\nor claim clinical significance. If a requested field cannot be determined from the image, use\n\"uncertain\". Return valid JSON only, with exactly these keys:\n{\n  \"modality\": \"...\",\n  \"tissue_type\": \"...\",\n  \"notable_features\": [\"...\"],\n  \"image_quality\": \"...\"\n}\nThe image is from a synthetic fluorescence-microscopy nuclei dataset. Be concise and descriptive.",
+  "naive_output": "The image you provided appears to be an x-ray or radiographic image, possibly of a human body part such as the spine, pelvis, or chest. The dark background represents the interior of the body, while the bright blue dots represent bones and other dense structures.\n\nHere are some key observations:\n\n1. **Bones**: There are several bright blue spots that likely correspond to bone structures. These could be vertebrae (spine), ribs, or other skeletal elements depending on the specific location in the image.\n2. **Density Differences**: The varying shades of blue indicate different densities within the body. Areas with higher density appear brighter, while areas with lower density are darker.\n\nIf you have more context about what part of the body this image is depicting or if there's any specific question related to it, please provide that information so I can give a more detailed analysis.",
+  "optimised_repeated_outputs": [
+    {
+      "run": 1,
+      "output": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "uncertain",
+        "notable_features": [
+          "blue fluorescent spots"
+        ],
+        "image_quality": "low resolution"
+      }
+    },
+    {
+      "run": 2,
+      "output": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "uncertain",
+        "notable_features": [
+          "blue fluorescent spots"
+        ],
+        "image_quality": "low resolution"
+      }
+    },
+    {
+      "run": 3,
+      "output": {
+        "modality": "Fluorescence Microscopy",
+        "tissue_type": "Nuclei",
+        "notable_features": [
+          "Blue fluorescent spots"
+        ],
+        "image_quality": "Low"
+      }
+    }
+  ]
+}

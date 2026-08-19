@@ -1,0 +1,8 @@
+{
+  "image_id": "test_005",
+  "n_objects": 15,
+  "mean_area": 434.67,
+  "density_class": "normal",
+  "quality_flag": "uncertain",
+  "narrative": "The segmentation indicates 15 objects with an average area of approximately 435 square units, suggesting a relatively dense distribution given the total area fraction is only about 0.1 percent."
+}

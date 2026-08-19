@@ -1,0 +1,8 @@
+{
+  "image_id": "test_004",
+  "n_objects": 42,
+  "mean_area": 337.02,
+  "density_class": "dense",
+  "quality_flag": "uncertain",
+  "narrative": "The segmentation indicates a dense distribution of 42 objects with an average area of approximately 337 square units, suggesting a high concentration but without clear evidence to confirm the exact quality or completeness of these objects."
+}

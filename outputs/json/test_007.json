@@ -1,0 +1,8 @@
+{
+  "image_id": "test_007",
+  "n_objects": 23,
+  "mean_area": 206.17,
+  "density_class": "normal",
+  "quality_flag": "uncertain",
+  "narrative": "The segmentation indicates 23 objects with an average area of approximately 206 square units, suggesting a relatively even distribution across the image. The mean eccentricity and solidity values further support the classification as 'normal', indicating that the shapes are mostly regular without significant deviations."
+}

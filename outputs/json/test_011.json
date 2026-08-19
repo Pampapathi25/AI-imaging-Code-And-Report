@@ -1,0 +1,8 @@
+{
+  "image_id": "test_011",
+  "n_objects": 20,
+  "mean_area": 184.6,
+  "density_class": "normal",
+  "quality_flag": "uncertain",
+  "narrative": "The segmentation of test_011 indicates 20 objects with an average area of 184.60 square units, suggesting a relatively uniform distribution across the image as indicated by the normal density class and mostly regular shape regularity. However, due to the lack of detailed clinical context or specific diagnostic criteria, the quality flag remains uncertain."
+}
