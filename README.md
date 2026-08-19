@@ -1,26 +1,5 @@
 # Hybrid Biomedical Nuclei Image Analysis — Assignment 3
 
-A complete VS Code-ready implementation of the supplied biomedical image-analysis assignment using the provided **synthetic fluorescence-microscopy nuclei dataset**.
-
-The project implements this auditable pipeline:
-
-**raw image → preprocessing/EDA → direct VLM description → Otsu segmentation + region features → numbers-first LLM description → U-Net segmentation → region features → structured JSON → narrative → aggregated CSV**
-
-> Educational use only. The system is not clinically validated and must not be used for diagnosis or patient care.
-
-## Important model change from the instructor
-
-The original brief names `llama3.2-vision`. The instructor later advised that students who encounter the `unknown model architecture: mllama` error may use an alternative such as **Qwen2.5-VL, Qwen3-VL, or ministral-3:14b**, or run Llama 3.2 Vision in Colab.
-
-This repository therefore uses:
-
-- **Vision model:** `qwen2.5vl:3b` (default)
-- **Text-only model:** `qwen2.5:3b` (default)
-
-Both run locally through Ollama. The model names are configurable, so the rest of the code does not need to change if you later choose Qwen3-VL or another instructor-approved model.
-
-See `INSTRUCTOR_MODEL_UPDATE.md` for the applied change.
-
 ## Assignment coverage
 
 ### Task 1 — Data preparation and multimodal LLM description
